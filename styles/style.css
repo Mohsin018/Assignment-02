@@ -2,6 +2,7 @@ body{
     max-width: 1365px;
     /* margin: 0 150px; */
     border: 2px solid red;
+    background-color: #F0F8FF;
 }
 
 
@@ -9,6 +10,7 @@ body{
 /* Header Section Start Here */
 .header{
     margin: 0 150px;
+    
 }
 
 .nav-ul{
@@ -244,6 +246,7 @@ body{
 /* Feedback Section */
 .footer{
     max-width: 1365px;
+    background-color: white;
 }
 
 .feedback-section{
@@ -258,8 +261,8 @@ body{
 }
 
 .feedback-div{
-    width: 100%;
-    padding: 80px 0px;
+    /* width: 100%; */
+    padding: 50px 0px;
     text-align: center;
     align-items: center;
     
@@ -268,29 +271,77 @@ body{
 .input{
     width: 400px;
     height: 40px;
+    padding: 10px;
+    border: none;
+    height: 30px;
 }
 
-.input2{
-    width: 100px;
-    height: 45px;
-}
 
-
-.btn{
+.btn {
     display: flex;
     justify-content: center;
+    align-items: center;
+    
+    padding-bottom: 100px;
+    margin-top: 0;
 }
 
-.subscribe{
+/* .input {
+    padding: 10px;
+    border: none;
+    height: 30px;
+}     */
+
+
+.subscribe {
     padding: 10px;
     width: 180px;
+    border: none;
+    background-color: #ff6200; 
+    color: white;
+    cursor: pointer;
+    height: 50px;
+}
+
+
+
+
+
+.footer-section{
+    width: 100%;
+    
+    border: 2px solid blue;
+    /* height: 100px; */
+}
+
+.footer-div{
+    margin: 30px 160px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
     
 }
 
 
+.footer-ul{
+    list-style: none;
+}
+
+.footer-opt ul{
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: auto auto;
+    /* gap: 20px; */
+    column-gap: 150px;
+    row-gap: 20px;
+}
 
 
-
-
-
+.icon-div{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+    align-items: center;
+    padding-bottom: 170px;
+}
 
