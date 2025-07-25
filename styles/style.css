@@ -789,7 +789,7 @@ body{
         margin: 30px 20px; /* Smaller side margins for mobile */
         gap: 40px; /* Space between stacked footer content blocks */
         /* IMPORTANT: text-align: center is still NOT on .footer-div itself */
-        border: 2px solid red;
+        
     }
 
     /* Logo and Description Section */
